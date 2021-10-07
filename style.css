@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background:#d1d1d1; 
+  flex-direction: column;
+}
+#main{
+    display:flex ;
+   
+    align-items: center;
+}
+h1{
+    margin-top:-2em ;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+}
+#canvas{
+    border:1px solid #000;
+    width: 800px;
+    height: 400px;
+}
+#canvas:hover{
+    cursor: crosshair;
+}
